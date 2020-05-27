@@ -7,7 +7,7 @@ import org.springframework.context.annotation.PropertySource;
 @Configuration
 @PropertySource("classpath:db.properties")
 public class AppConfig {
-
+ 
 	@Bean
 	public DataSource dataSource() {
 		DataSource ds = new DataSource();
